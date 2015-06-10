@@ -37,7 +37,7 @@ For the controller to work, you need to have Python 2.7 installed and correctly 
 
 First, you need to create the Visual Studio project. To do this, right click *HighwayFlocking.uproject*, and choose *Generate Visual Studio project files*.
 
-Start Unreal Editor by doubleclicking *HighwayFlocking.uproject*. You will probably get a messsage saying that *UE4Editor-HighwayFlocking.dll* is missing. Click **Yes** to compile the project. When this is done, you should be able to run the project in Unreal Editor. To view the source code in Visual Studio, press *File | Open Visual Studio*.
+Start Unreal Editor by doubleclicking *HighwayFlocking.uproject*. You will probably get a messsage saying that *UE4Editor-HighwayFlocking.dll* is missing. Click **Yes** to compile the project. When this is done, you should be able to run the project in Unreal Editor. To view the source code in Visual Studio, press *File | Open Visual Studio* after opening the project in Unreal Editor.
 
 When the simulation have started, try clicking *O* to start the spawners. Press *ESC* to close the simulator. When running the simulator, there are lots of keyboard shortcuts that can be used. These are the most important:
 
