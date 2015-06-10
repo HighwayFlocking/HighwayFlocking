@@ -1,0 +1,20 @@
+This project (with some exceptions) is copyright 2015 Sindre Ilebekk Johansen and Andreas Sløgedal Løvland.
+
+Licensed under the Apache License, Version 2.0
+<LICENSE or http://www.apache.org/licenses/LICENSE-2.0>.
+
+This project includes some files created by third parties. This includes
+
+* msgpack.h, msgpack.cpp, zone.cpp, version.cpp, unpack.cpp, object.cpp, and all the files in the
+    Source/msgpack directory. These files are part of the msgpack-c project.
+    This files are licensed under the Apache License.
+* All the files with names containing Sedan. These files are part of the example content for
+    Unreal Engine, and are only to be used with Unreal Engine.
+* Brick_pavement_classic_seamless_texture_2048x2048.uasset,
+    Brick_pavement_classic_seamless_texture_2048x2048.jpg,
+    Dark_patch_april11_Green_grass_ground_land_dirt_aerial_top_seamless_texture.uasset, and
+    Dark_patch_april11_Green_grass_ground_land_dirt_aerial_top_seamless_texture.jpg.
+
+    These are copyright http://www.seamless-pixels.blogspot.com/.
+
+
