@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "HighwayFlocking"
-#define MyAppVersion "0.1"
+#define MyAppVersion "1.0"
 #define MyAppPublisher "NTNU"
 #define MyAppURL "https://highwayflocking.github.io/"
 #define MyAppExeName "gui.exe"
