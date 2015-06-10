@@ -18,7 +18,6 @@ import os
 
 PATH = os.path.dirname(os.path.realpath(__file__))
 
-# DB_PASSWORD = "password"
 ## Uncomment the following to use the development version of the simulator, instead of the pacaged
 ## one.
 # SIMULATOR_LOCATION = os.path.join(PATH, '..', 'Binaries', 'Win64', 'HighwayFlocking.exe')
