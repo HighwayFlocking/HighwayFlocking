@@ -88,8 +88,6 @@ Content/unused/
 *.sdf
 *.suo
 *.opensdf
-Content/Sedan/AndreasSedan.uasset
-Config/DefaultInput.ini
 Vehicle.sln
 
 
