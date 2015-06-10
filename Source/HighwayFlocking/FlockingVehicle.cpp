@@ -346,7 +346,7 @@ void AFlockingVehicle::SetFlockingState(EFlockingState NFlockingState) {
 
 	ABehaviours* Behaviors = BehaviorsInState[(uint8)FlockingState];
 
-	bool ShowArrows = true;
+	bool ShowArrows = false;
 
 	if (ShowArrows) {
 		if (GetWorld()) {
