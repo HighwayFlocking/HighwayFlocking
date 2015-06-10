@@ -75,6 +75,7 @@ docs/_build/
 target/
 
 #Unreal studio
+HighwayFlocking.sln
 
 *.blend1
 packaged

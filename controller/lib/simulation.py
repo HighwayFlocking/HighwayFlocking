@@ -369,7 +369,6 @@ class Simulator(object):
 
     def followcam(self, speed, offset_z, offset_y, look_distance, rev, look_offset_y, look_offset_z,
                   fov, start_distance, fsmooth):
-        print start_distance
         self.send_message(PT_FollowCam,
             {
                 'speed': speed,

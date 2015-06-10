@@ -25,6 +25,7 @@ SIMULATOR_LOCATIONS = [
     os.path.join(PATH, 'simulator', 'WindowsNoEditor', 'HighwayFlocking.exe'),
     os.path.join(PATH, 'HighwayFlocking.exe'),
     os.path.join(PATH, 'simulator', 'HighwayFlocking.exe'),
+    os.path.join(PATH, 'WindowsNoEditor', 'HighwayFlocking.exe'),
     os.path.join(PATH, '..', 'WindowsNoEditor', 'HighwayFlocking.exe'),
     os.path.join(PATH, '..', 'simulator', 'WindowsNoEditor', 'HighwayFlocking.exe'),
     os.path.join(PATH, '..', '..', 'simulator', 'WindowsNoEditor', 'HighwayFlocking.exe'),

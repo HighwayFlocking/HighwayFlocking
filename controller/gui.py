@@ -26,6 +26,7 @@ from PySide.QtCore import QTimer
 
 from lib.gui.controller_ui import Ui_MainWindow
 import configs
+import config as cfg
 from lib.simulation import Simulator, SimulatorIsClosedException
 
 logger = logging.getLogger(__name__)
@@ -168,6 +169,11 @@ def main():
     logger.addHandler(fh)
 
     app = QtGui.QApplication(sys.argv)
+
+    if not cfg.SIMULATOR_LOCATION:
+        a=QtGui.QMessageBox.critical(None,'No Simulator!',"Could not find the simulator!", QtGui.QMessageBox.Abort)
+        return
+
     controllerWindow = ControllerMainWindow()
     app.aboutToQuit.connect(controllerWindow.on_about_to_quit)
     sys.exit(app.exec_())
