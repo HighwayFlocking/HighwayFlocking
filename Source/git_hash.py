@@ -28,8 +28,12 @@ if not os.path.exists(GIT_DIR):
     git_hash = "unknown"
     print 'WARNING: Could not find git!'
 else:
-    git_hash = subprocess.check_output([GIT_DIR, 'rev-parse', 'HEAD'])
-    git_hash = git_hash.strip()
+    try:
+        git_hash = subprocess.check_output([GIT_DIR, 'rev-parse', 'HEAD'])
+        git_hash = git_hash.strip()
+    except subprocess.CalledProcessError:
+        git_hash = 'unknown'
+        print 'WARNING: Error while calling git'
 
 template = """
 #pragma once
